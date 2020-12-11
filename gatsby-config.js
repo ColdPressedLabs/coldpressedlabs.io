@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Cold Pressed Labs',
+    siteUrl: 'https://coldpressedlabs.io',
+    description: 'Cold Pressed Labs',
+  },
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-postcss",
