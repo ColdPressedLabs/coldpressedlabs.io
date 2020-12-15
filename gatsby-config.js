@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: 'https://coldpressedlabs.io',
     description: 'Cold Pressed Labs',
   },
+  pathPrefix: "/coldpressedlabs.io", // XXX: This is because of Github pages
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-postcss",
