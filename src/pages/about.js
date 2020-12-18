@@ -30,23 +30,17 @@ Cold Pressed Labs assembles highly motivated and experienced teams to build prop
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
+            <div class='col col-9'>
               <h1>3-6 Month Sprints</h1>
               <p class="h4">
                 We support early stage tech companies who need to rapidly and reliably get early software products and services to market while testing core business hypotheses.
               </p>
             </div>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
-            </div>
           </div>
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
-            </div>
-            <div class='col'>
+            <div class='col col-9 offset-3 text-end'>
               <h1>Experts at Computational Finance</h1>
               <p class="h4">
                 The team has years of experience building financial systems such as payments and underwriting in multiple geographies as well as enterprise software solutions.
@@ -56,14 +50,11 @@ Cold Pressed Labs assembles highly motivated and experienced teams to build prop
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
+            <div class='col col-9'>
               <h1>Cloud-based solutions</h1>
               <p class="h4">
                 We pair with the main cloud providers to build proprietary b2b and b2c cloud based software services.
               </p>
-            </div>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
             </div>
           </div>
         </Section>

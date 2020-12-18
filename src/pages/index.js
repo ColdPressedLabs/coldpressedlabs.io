@@ -14,7 +14,7 @@ const Section = ({children}) => <section style={{marginTop: "150px", marginBotto
     {children}
   </section>
 
-const Background = () => <div style={{width: "100%", height: "300vh", position: "absolute", display: "block", zIndex: "-1", top: "0"}}>
+const Background = () => <div style={{width: "100%", height: "1000px", position: "absolute", display: "block", zIndex: "-1", top: "0"}}>
       <div style={{
         background: "linear-gradient(170deg, rgba(30,50,70,1) 0%, rgba(80,120,175,1) 30%, rgba(100,200,255,1) 60%, rgba(166,240,255,0) 70%)",
         //clipPath: "polygon(0 0, 100% 0%, 100% 60%, 0 100%)",
@@ -22,6 +22,37 @@ const Background = () => <div style={{width: "100%", height: "300vh", position: 
       }}>
       </div>
   </div>
+
+const CompanyLogos = () => <Section>
+          <div class='row'>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+          </div>
+          <div class='row mt-4 mb-5'>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+            <div class='col'>
+                <PlaceholderImage width="100%" height="100" title="LOGO" />
+            </div>
+          </div>
+        </Section>
 
 const IndexPage = () => {
   return <CustomLayout>
@@ -53,60 +84,21 @@ const IndexPage = () => {
                 </svg>
               </button>
             </div>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="500px" title="HERO IMAGE" />
-            </div>
-          </div>
-        </Section>
-        <Section>
-          <div class='row'>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-          </div>
-          <div class='row mt-4 mb-5'>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
-            <div class='col'>
-                <PlaceholderImage width="100%" height="100" title="LOGO" />
-            </div>
           </div>
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
+            <div class='col col-9'>
               <h1>3-6 Month Sprints</h1>
               <p class="h4">
                 We support early stage tech companies who need to rapidly and reliably get early software products and services to market while testing core business hypotheses.
               </p>
             </div>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
-            </div>
           </div>
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
-            </div>
-            <div class='col'>
+            <div class='col col-9 offset-3 text-end'>
               <h1>Experts at Computational Finance</h1>
               <p class="h4">
                 The team has years of experience building financial systems such as payments and underwriting in multiple geographies as well as enterprise software solutions.
@@ -116,14 +108,11 @@ const IndexPage = () => {
         </Section>
         <Section>
           <div class='row mt-5 mb-5'>
-            <div class='col'>
+            <div class='col col-9'>
               <h1>Cloud-based solutions</h1>
               <p class="h4">
                 We pair with the main cloud providers to build proprietary b2b and b2c cloud based software services.
               </p>
-            </div>
-            <div class='col'>
-              <PlaceholderImage width="100%" height="400px" title="IMAGE" />
             </div>
           </div>
         </Section>
