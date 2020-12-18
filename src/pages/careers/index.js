@@ -1,5 +1,6 @@
 import * as React from "react"
-import { Layout } from '../components/layout';
+import { Layout } from '../../components/layout';
+import { Link } from 'gatsby';
 
 
 const PlaceholderImage = ({title, width, height}) => <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width={width} height={height} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -65,9 +66,15 @@ const IndexPage = () => {
                     We value time; both your time, the clients' time and our time.
                     So we cut through the bullshit and we go direct to what matters.
                   </p>
-                  <p>There will be two 1-hour remote interviews and then we have an offer for you.</p>
+                  <p>There will be two 1-hour remote interviews, and then we have an offer for you.</p>
                 </div>
               </div>
+              <h1 class='display-4 text-center'>Job Offers</h1>
+              <ul class='col-12'>
+                <li><Link to="/careers/react-junior">Junior React UI Developer</Link></li>
+              </ul>
+              
+              
             </div>
           </div>
         </Section>

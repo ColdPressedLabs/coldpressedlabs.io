@@ -10,7 +10,7 @@ const PlaceholderImage = ({title, width, height}) => <svg class="bd-placeholder-
                 <text x="50%" y="50%" fill="#dee2e6"  dominant-baseline="middle" text-anchor="middle" dy=".3em">{title}</text>
               </svg>
 
-const Section = ({children}) => <section style={{marginTop: "150px", marginBottom: "150px"}}>
+export const Section = ({children}) => <section style={{marginTop: "150px", marginBottom: "150px"}}>
     {children}
   </section>
 
@@ -18,7 +18,7 @@ const Background = () => <div style={{width: "100%", height: "1000px", position:
       <div style={{
         background: "linear-gradient(170deg, rgba(30,50,70,1) 0%, rgba(80,120,175,1) 30%, rgba(100,200,255,1) 60%, rgba(166,240,255,0) 70%)",
         //clipPath: "polygon(0 0, 100% 0%, 100% 60%, 0 100%)",
-        width: "100%", height: "1000px"
+        width: "100%", height: "950px"
       }}>
       </div>
   </div>
@@ -55,6 +55,9 @@ const CompanyLogos = () => <Section>
         </Section>
 
 const IndexPage = () => {
+  const onLaunchMyStartup = () => {
+    window.location.href = "mailto:javcasas@gmail.com"
+  }
   return <CustomLayout>
     <Navbar transparent />
     <Background />
@@ -77,7 +80,7 @@ const IndexPage = () => {
               <p class="h4 text-light">
                 We partner with talented founders and developers to turn ideas into startups.
               </p>
-              <button className='btn btn-primary btn-lg rounded-pill mt-4'>
+              <button className='btn btn-primary btn-lg rounded-pill mt-4' onClick={onLaunchMyStartup}>
                 Launch my Startup &nbsp;
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
