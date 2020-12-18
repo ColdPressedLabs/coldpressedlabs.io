@@ -91,9 +91,9 @@ const IndexPage = () => {
         <Section>
           <div class='row mt-5 mb-5'>
             <div class='col'>
-              <h1>Selling reason 1</h1>
+              <h1>3-6 Month Sprints</h1>
               <p class="h4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                We support early stage tech companies who need to rapidly and reliably get early software products and services to market while testing core business hypotheses.
               </p>
             </div>
             <div class='col'>
@@ -107,9 +107,9 @@ const IndexPage = () => {
               <PlaceholderImage width="100%" height="400px" title="IMAGE" />
             </div>
             <div class='col'>
-              <h1>Selling reason 2</h1>
+              <h1>Experts at Computational Finance</h1>
               <p class="h4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The team has years of experience building financial systems such as payments and underwriting in multiple geographies as well as enterprise software solutions.
               </p>
             </div>
           </div>
@@ -117,9 +117,9 @@ const IndexPage = () => {
         <Section>
           <div class='row mt-5 mb-5'>
             <div class='col'>
-              <h1>Selling reason 3</h1>
+              <h1>Cloud-based solutions</h1>
               <p class="h4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                We pair with the main cloud providers to build proprietary b2b and b2c cloud based software services.
               </p>
             </div>
             <div class='col'>
