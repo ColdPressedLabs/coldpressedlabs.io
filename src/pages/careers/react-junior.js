@@ -35,6 +35,14 @@ const IndexPage = () => {
                 <li>Experience with React frameworks, such as NextJS or GatsbyJS</li>
                 <li>Experience with NodeJS and Backend Javascript frameworks, such as ExpressJS</li>
               </ul>
+              <h3>What we offer</h3>
+              <ul>
+                <li>Full remote work. Work from home, forever.</li>
+                <li>Work from anywhere in the world.</li>
+                <li>Objective-based expectations. Use your creativity to finish early and go enjoy your free time.</li>
+                <li>Strong career prospects. We are growing both in project quantity and quality, and you will become the leader of a great project in the future.</li>
+                <li>Salary: USD$3000-5000 per month depending on experience</li>
+              </ul>
 
               <Link to="Apply URL">Apply to offer in ...</Link>
               <div className="container text-center">
